@@ -7,3 +7,4 @@
 ```npm install --save body-parser```<br />
 ```npm install --save method-override```<br />
 ```npm install express-session connect-flash --save```<br />
+```npm install --save bcryptjs```<br />
