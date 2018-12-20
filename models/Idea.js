@@ -3,18 +3,22 @@ const Schema = mongoose.Schema
 
 //Create Schema
 const IdeaSchema = new Schema({
-  title:{
+  title: {
+    type: String,
+    required: true
+  },
+  details: {
+    type: String,
+    required: true
+  },
+  user:{
     type:String,
     required:true
   },
-  details:{
-    type:String,
-    required:true
-  },
-  date:{
-    type:Date,
-    default:Date.now
+  date: {
+    type: Date,
+    default: Date.now
   }
 });
 
-mongoose.model('ideas',IdeaSchema)
+mongoose.model('ideas', IdeaSchema)
