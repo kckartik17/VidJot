@@ -8,3 +8,4 @@
 ```npm install --save method-override```<br />
 ```npm install express-session connect-flash --save```<br />
 ```npm install --save bcryptjs```<br />
+```npm install --save passport passport-local```<br />
