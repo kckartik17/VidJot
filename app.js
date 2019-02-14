@@ -68,7 +68,7 @@ app.use(function(req, res, next) {
 
 //Index Route
 app.get("/", (req, res) => {
-  const name = "Hello Kartik";
+  const name = "Hello Kartik Singh Chauhan";
   res.render("index", {
     Name: name
   });
